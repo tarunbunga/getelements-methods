@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class="redborder">RAJA THE GRATE</p>
+    <p class="redborder">RAJA THE GRATE</p>
+    <p class="redborder">RAJA THE GRATE</p>
+    <br/>
+    <p class="greenborder">RAJA THE GRATE</p>
+    <p class="greenborder">RAJA THE GRATE</p>
+    <p class="greenborder">RAJA THE GRATE</p>
+    <script>
+        var reddorderparagraphs=document.getElementsByClassName("redborder");
+        alert(reddorderparagraphs.length);
+    reddorderparagraphs[0].style.border="2px solid red";
+    reddorderparagraphs[1].style.border="2px solid red";    
+    reddorderparagraphs[2].style.border="2px solid red";    
+       
+        var greenborderparagraphs=document.getElementsByClassName("greenborder");
+        alert(greenborderparagraphs.length);
+        greenborderparagraphs[0].style.border="2px solid green";
+        greenborderparagraphs[1].style.border="2px solid green";    
+        greenborderparagraphs[2].style.border="2px solid green";
+        greenborderparagraphs[2].innerHTML="TARUN THE GRATE";
+    </script>
+</body>
+</html>
